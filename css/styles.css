@@ -1,0 +1,191 @@
+body{
+    font-family: "Montserrat";
+
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+    
+}
+
+
+p{
+    color: #8f8f8f;
+    font-family: "Montserrat-Light";
+    font-size: 1.1rem;
+    
+   
+}
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    
+
+}
+.section-heading{
+font-size: 3rem;
+    line-height: 1.5;
+}
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar-brand{
+font-size: 1.89rem;
+font-family: "ubuntu";
+font-weight: bold;
+
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-item{
+    padding: 0 18px;
+    
+    
+}
+.nav-link{
+    font-size: 1.4rem;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.download-button{
+    margin: 6% 3% 5% 0;
+}
+.iphone-img{
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 26%;
+
+    
+  
+}
+
+
+#features{
+    padding: 10% 15%;
+    background-color: white;
+    position: relative;
+    
+    
+}
+.fa-width{
+    color: #ef8172;
+    /* font-size: 4rem; */
+   margin: 1rem;
+}
+.fa-width:hover{
+    color: #ff4c68;
+    cursor: pointer;
+}
+.feature-box{
+    
+    padding: 5%;
+}
+.feature-title{
+    font-size: 1.5rem;
+   
+    font-weight: bold;
+}
+
+
+
+#testimonials{
+   
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 200%;
+    margin: 1.5rem;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+#press{
+    background-color: #ef8172;
+   
+    padding: 0 2% 2%;
+}
+.press-image{
+    width: 13%;
+    margin: 20px 15px 20px 15px;
+}
+.carousel-item{
+    padding: 5% 15%;
+
+}
+
+
+#pricing{
+    padding: 100px;
+   
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+
+
+}
+.pricing-column{
+    padding: 5% 3%;
+}
+
+
+#cta{
+    
+    background-color: #ff4c68;
+    padding: 7% 15%;            
+
+}
+.cta-h3{
+    color: white;
+    font-family: "montserrat";
+    font-size: 3.5rem;
+   /* width: 35%; */
+   line-height: 1.5;
+   
+}
+
+
+#footer{
+    background-color: #fff;
+    
+    padding: 5% 15% 2%;
+}
+.f-icon{
+    margin: 0 1%;
+    color:#ff4c68 ;
+    font-size: 1.5rem;
+}
+.f-icon:hover{
+cursor: pointer;
+color:#ef8172 ;
+}
+
+@media screen and (max-width: 992px)
+
+{
+    #title{
+        text-align: center;
+    
+    }
+.iphone-img{
+    width: 40%;
+   position: static;
+   transform: none;
+}
+}
+
